@@ -12,7 +12,7 @@ body {
 header {
   background-color: coral;
   color: #fff;
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 400;
   padding: 25px 0px;
 }
@@ -72,12 +72,12 @@ h2 {
 
 .semi {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: normal;
 }
 
 .cite {
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
 }
 
