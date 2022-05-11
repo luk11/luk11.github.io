@@ -52,7 +52,7 @@ h2 {
   position: absolute;
   text-align: center;
   width: 100%;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .description {
@@ -66,7 +66,7 @@ h2 {
 
 .light {
   font-weight: 200;
-  font-size: 20px;
+  font-size: 26px;
   line-height: normal;
 }
 
