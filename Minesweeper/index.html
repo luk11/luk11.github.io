@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <title>Minesweeper</title>
+  </head>
+  <body>
+    <header>
+      <div class="new-game">New game</div>
+      <div class="remaining">10 mines remaining</div>
+    </header>
+
+    <main>
+      <div class="container">
+        <!-- Code inserted by JS -->
+      </div>
+    </main>
+
+    <footer>
+      <div class="input-field">
+        <label for="columns">Columns:</label>
+        <input
+          type="number"
+          name="columns"
+          id="columns"
+          step="1"
+          min="4"
+          max="20"
+          value="12"
+        />
+      </div>
+
+      <div class="input-field">
+        <label for="rows">Rows:</label>
+        <input
+          type="number"
+          name="rows"
+          id="rows"
+          step="1"
+          min="4"
+          max="20"
+          value="12"
+        />
+      </div>
+
+      <div class="input-field">
+        <label for="mines">Hidden mines:</label>
+        <input
+          type="number"
+          name="mines"
+          id="mines"
+          step="1"
+          min="2"
+          max="50"
+          value="16"
+        />
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
